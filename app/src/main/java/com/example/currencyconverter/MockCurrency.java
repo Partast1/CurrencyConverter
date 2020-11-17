@@ -2,7 +2,10 @@ package com.example.currencyconverter;
 
 import java.util.ArrayList;
 import java.util.List;
-
+/*
+*Creates and returns dummy data
+*
+ */
 public class MockCurrency implements CurrencyDAOAble {
     @Override
     public List<Rate> GetRates(String base) {
